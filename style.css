@@ -1,0 +1,61 @@
+@font-face {
+    	font-family: 'Comix';
+    	src: url('fonts/xx.eot');
+    	src: url('fonts/xx.eot?#iefix') format('embedded-opentype'),
+			url('fonts/xx.woff') format('woff'),
+			url('fonts/xx.ttf') format('truetype');
+		font-weight: normal;
+    	font-style: normal;
+}
+body{
+	margin:0px;
+	background-color: red;
+}
+::-webkit-scrollbar { 
+	display: none; 
+}
+.grundtext{
+	font-family: Comix;
+	font-size: 7vw;
+	line-height: 8vw;
+	text-align: justify;
+}
+
+		
+		
+		
+
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.fullscreen_img{
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width : 1000px)  {
+	.grundtext{
+		font-size:120px;
+		line-height:130px;
+		width:1000px;
+		text-align: left;
+	}
+}
