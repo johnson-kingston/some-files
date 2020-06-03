@@ -11,8 +11,8 @@ body{
 	margin:0px;
 	background-color: red;
 }
-::-webkit-scrollbar { 
-	display: none; 
+::-webkit-scrollbar {
+	display: none;
 }
 .grundtext{
 	font-family: Comix;
@@ -21,9 +21,9 @@ body{
 	text-align: justify;
 }
 
-		
-		
-		
+
+
+
 
 .swiper-container {
     width: 100vw;
